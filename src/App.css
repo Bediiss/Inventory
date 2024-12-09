@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color:#254117;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.input-container {
+  display: flex; /* Makes the children (inputs) appear in a row */
+  gap: 10px; /* Adds some space between the inputs */
+  justify-content: center; /* Centers the inputs horizontally */
+  margin-bottom: 20px; /* Adds space below the inputs */
+}
+
+.input-field {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 200px; /* Adjust the width of the inputs */
+}
+
+
+.App-header {
+  background-color: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.welcome-text {
+  color:#F5F5DC;
+  font-weight:bold;
+}
+.App-link {
+  color: #61dafb;
+}
+
